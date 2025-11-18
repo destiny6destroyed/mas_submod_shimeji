@@ -1,4 +1,4 @@
-# MAS Shimeji Submod
+# MAS Shimeji Submod UPDATER
 - This submod add the "Turn into a shimeji" fuction, letting Monika be a shimeji in the desktop (she can't throw Windows)
 - If you want her to come back, just click the button "Can you come back, please?"
 - To make it work, save the Shimeji folder inside the game/submod folder
