@@ -3,7 +3,7 @@ init -990 python in mas_submod_utils:
         author="Destiny Destroyed",
         name="Shimeji Submod",
         description="Allows Monika to turn into a shimeji",
-        version="1.0.0"
+        version="1.0"
     )
 
 init -989 python:
@@ -12,7 +12,7 @@ init -989 python:
             submod="Shimeji Submod",
             user_name="destiny6destroyed",
             repository_name="mas_submod_shimeji",
-            extraction_depth=3
+            update_dir=""
         )
 
 
