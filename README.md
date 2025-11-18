@@ -2,6 +2,7 @@
 - This submod add the "Turn into a shimeji" fuction, letting Monika be a shimeji in the desktop (she can't throw Windows)
 - If you want her to come back, just click the button "Can you come back, please?"
 - To make it work, save the Shimeji folder inside the game/submod folder
+- THIS IS ONLY FOR UPDATES, IF YOU DON'T HAVE ORIGINAL CODE, DOWNLOAD IT HERE: [HERE](https://drive.google.com/file/d/1vFyQQTMND5WspwuXKPXrTo0oXInXUwE6/view?usp=drive_link)
 - No need of Java
 - Two versions:
   - Shimeji 2D: It belongs to Childish-N (https://www.deviantart.com/childish-n/art/DDLC-Shimeji-Pack-718209813)
