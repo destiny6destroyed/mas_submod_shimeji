@@ -1,18 +1,24 @@
 init -990 python in mas_submod_utils:
-    Submod(
+    shimeji_submod = Submod(
         author="Destiny Destroyed",
         name="Shimeji Submod",
-        description="Allows Monika to turn into a shimeji",
-        version="1.0"
+        description="Allows Monika to turn into a shimeji.",
+        version="1.1",
+        version_updates={}
     )
 
-init -989 python:
+init -989 python in ahc_utils:
+    import store
+
+    #Register the updater if needed
     if store.mas_submod_utils.isSubmodInstalled("Submod Updater Plugin"):
         store.sup_utils.SubmodUpdater(
-            submod="Shimeji Submod",
+            submod=store.mas_submod_utils.shimeji_submod,
             user_name="destiny6destroyed",
             repository_name="mas_submod_shimeji",
-            update_dir=""
+            tag_formatter=lambda x: x[x.index('_') + 1:],
+            update_dir="",
+            attachment_id=None,
         )
 
 
