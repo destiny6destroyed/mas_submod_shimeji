@@ -3,7 +3,7 @@ init -990 python in mas_submod_utils:
         author="Destiny Destroyed",
         name="Shimeji Submod",
         description="Allows Monika to turn into a shimeji.",
-        version="1.1",
+        version="1.1.0",
         version_updates={}
     )
 
