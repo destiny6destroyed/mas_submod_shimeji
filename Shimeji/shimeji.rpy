@@ -1,19 +1,24 @@
-# Register the submod
-init -990 python:
-    store.mas_submod_utils.Submod(
-        author="Destiny Destroyed",
+init -990 python in mas_submod_utils:
+    ahc_submod = Submod(
+        author="multimokia and Legendkiller21",
         name="Shimeji Submod",
-        description="Allows Monika to turn into a shimeji.",
-        version="1.1.0"
+        description="A submod which allows Monika to pick her own hairstyles for day and night.",
+        version="1.1.0",
+        version_updates={}
     )
 
-# Register the updater
-init -989 python:
+init -989 python in ahc_utils:
+    import store
+
+    #Register the updater if needed
     if store.mas_submod_utils.isSubmodInstalled("Submod Updater Plugin"):
         store.sup_utils.SubmodUpdater(
-            submod="Shimeji Submod",
+            submod=store.mas_submod_utils.ahc_submod,
             user_name="destiny6destroyed",
-            repository_name="mas_submod_shimeji"
+            repository_name="mas_submod_shimeji",
+            tag_formatter=lambda x: x[x.index('_') + 1:],
+            update_dir="",
+            attachment_id=None,
         )
 
 
