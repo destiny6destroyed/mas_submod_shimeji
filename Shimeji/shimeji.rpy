@@ -1,8 +1,8 @@
 init -990 python in mas_submod_utils:
     ahc_submod = Submod(
-        author="multimokia and Legendkiller21",
+        author="Destiny Destroyed",
         name="Shimeji Submod",
-        description="A submod which allows Monika to pick her own hairstyles for day and night.",
+        description="Allows Monika to turn into a shimeji.",
         version="1.1.0",
         version_updates={}
     )
