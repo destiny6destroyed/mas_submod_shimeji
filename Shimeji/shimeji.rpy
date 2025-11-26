@@ -4,7 +4,7 @@ init -990 python:
         author="Destiny Destroyed",
         name="Shimeji Submod",
         description="A short description.",
-        version="2.0.0"
+        version="1.1.0"
     )
 
 # Register the updater
